@@ -2,19 +2,24 @@ import React from "react";
 
 const MadLib3 = () => (
   <div>
-    <h1>
-
-      MadLib3
+    <div id="libDiv">
+      <h1>
+        Our President get/'s his own Mad Lib!'
     </h1>
 
-    <p>
-    There was a (noun) for sale at Walmart. I (verb) a few while I (adverb) (verb) over to the checkout. The cashier (verb) at me while I dug into my (noun) and pulled out my (noun). 
-    </p>
+      <p>
+        After he sent out yet another controversial tweet,
+    <br />
+        Donald Trump (verb) on his (adjective)(noun) and (adverb)(verb).
+    <br />
+        His phone started (verbing) and he picked it up to see 1000 retweets.
+    <br />
+        He looked at his hands and wished they were (Noun).
+    <br />
+        “These tiny hands can’t tweet fast enough”, he thought to himself as he (verb).
 
-    <p>
-    Melania (verb) at her husband and (adverb) (verb) his (adjective) hair. He (verb) at her and told her to (noun).
     </p>
-    
+    </div>
   </div>
 );
 

@@ -1,12 +1,13 @@
 import React from "react";
 
 const Home = () => (
-  <div>
+  <div >
     <h1>
-
-     Mad Libs!
+      Are you mad for...
     </h1>
-    
+    <img id="header" src="http://www.madlibs.com/content/themes/madlibs/dist/images/intro_logo.png" />
+
+
   </div>
 );
 

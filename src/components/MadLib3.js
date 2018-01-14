@@ -17,8 +17,6 @@ const MadLib3 = () => (
     Melania (verb) at her husband and (adverb) (verb) his (adjective) hair. He (verb) at her and told her to (noun).
     </p>
 
-    <br />
-    <button><Link to="/MadLibs">Back</Link></button>
   </div>
 );
 

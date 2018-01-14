@@ -25,9 +25,6 @@ const MadLib1 = () => (
     </p>
 
 
-    <br />
-    
-    <button><Link to="/MadLibs">Back</Link></button>
 
   </div>
 );

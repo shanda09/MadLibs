@@ -19,13 +19,13 @@ const Nav = props => (
             <Link to="/MadLibs/madLib1">MAd lib #1</Link>
           </li>
           <li>
-            <Link to="/MadLib2">MAd lib #2</Link>
+          <Link to="/MadLibs/MadLib2">MAd lib #2</Link>
           </li>
           <li>
-            <Link to="/MadLib3">MAd lib #3</Link>
+          <Link to="/MadLibs/MadLib3">MAd lib #3</Link>
           </li>
           <li>
-            <Link to="/MadLib4">MAd lib #4</Link>
+          <Link to="/MadLibs/MadLib4">MAd lib #4</Link>
           </li>
         </ul>
       </div>
@@ -40,6 +40,9 @@ class MadLibs extends React.Component {
       <Switch>
           <Route exact path="/MadLibs" component={Nav} />
         <Route path="/MadLibs/madLib1" component={MadLib1} />
+        <Route path="/MadLibs/madLib2" component={MadLib2} />
+        <Route path="/MadLibs/madLib3" component={MadLib3} />
+        <Route path="/MadLibs/madLib4" component={MadLib4} />
 
       </Switch>
       )

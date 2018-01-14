@@ -12,11 +12,11 @@ const MadLib1 = () => (
    </h1>
 
     <p>
-      I saw a {MadLibAPI.getAdj()} with big (noun) on the train ride to (Place). To stop myself from staring, I (verb) my (noun).
+      I saw a (noun) with big (noun) on the train ride to (Place). To stop myself from staring, I (verb) my (noun).
    </p>
 
     <p>
-      George.R.R Martin was so (verb) while writing Game of Thrones that he (adverb) (verb) everyone.
+      George.R.R Martin was so (verb) while writing Game of Thrones that he {MadLibAPI.getAdv()} (verb) everyone.
    </p>
 
     <p>
@@ -28,7 +28,8 @@ const MadLib1 = () => (
    </p>
 
 
-
+    <br />
+    <button><Link to="/MadLibs">Back</Link></button>
 
   </div>
 );

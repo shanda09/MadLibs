@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MadLibAPI from "../api/MadLibAPI";
 
 
 const MadLib3 = () => (
@@ -14,7 +15,7 @@ const MadLib3 = () => (
     </p>
 
     <p>
-    Melania (verb) at her husband and (adverb) (verb) his (adjective) hair. He (verb) at her and told her to (noun).
+      Melania (verb) at her husband and {MadLibAPI.getAdj()} (verb) his {MadLibAPI.getAdj()} hair. He (verb) at her and told her to (noun).
     </p>
 
   </div>

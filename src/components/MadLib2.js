@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MadLibAPI from "../api/MadLibAPI";
 
 
 const MadLib2 = () => (
@@ -10,11 +11,11 @@ const MadLib2 = () => (
     </h1>
     
     <p>
-    Annual (adjective) parade passed through (place) unnoticed while everyone was (verb) in (adjective).
+      Annual {MadLibAPI.getAdj()} parade passed through (place) unnoticed while everyone was (verb) in {MadLibAPI.getAdj()}.
     </p>
 
     <p>
-    He just wanted to (verb) while watching television, but his (adjective) (noun) kept (verb).
+      He just wanted to (verb) while watching television, but his {MadLibAPI.getAdj()} (noun) kept (verb).
     </p>
     
     <p>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MadLibAPI from "../api/MadLibAPI";
 
 
 const MadLib4 = () => (
@@ -14,7 +15,7 @@ const MadLib4 = () => (
     </p>
 
     <p>
-    After watching that black mirror episode, I (adverb) buried my face in (noun) and thought about (adjective) (noun).
+      After watching that black mirror episode, I (adverb) buried my face in (noun) and thought about {MadLibAPI.getAdj()} (noun).
     </p>
 
   </div>

@@ -24,7 +24,7 @@ const MadLib1 = () => (
    </p>
 
     <p>
-      When this girl was (verb) by her (Person), The internet came together and (adjective) told her to (verb).
+      When this girl was (verb) by her (Person), The internet came together and {MadLibAPI.getAdj()} told her to (verb).
    </p>
 
 

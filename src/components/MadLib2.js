@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const MadLib2 = () => (
   <div>
@@ -19,6 +21,8 @@ const MadLib2 = () => (
     Sony released a new game about (noun) who (adverb) while (verb).
     </p>
 
+    <br />
+    <button><Link to="/MadLibs">Back</Link></button>
   </div>
 );
 

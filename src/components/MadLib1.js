@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const MadLib1 = () => (
   <div>
@@ -21,6 +23,11 @@ const MadLib1 = () => (
     <p>
     When this girl was (verb) by her (Person), The internet came together and (adjective) told her to (verb).
     </p>
+
+
+    <br />
+    
+    <button><Link to="/MadLibs">Back</Link></button>
 
   </div>
 );

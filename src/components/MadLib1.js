@@ -16,7 +16,7 @@ const MadLib1 = () => (
    </p>
 
     <p>
-      George.R.R Martin was so (verb) while writing Game of Thrones that he {MadLibAPI.getAdv()} (verb) everyone.
+      George.R.R Martin was so (verb) while writing Game of Thrones that he "'{MadLibAPI.getAdv()}'" (verb) everyone.
    </p>
 
     <p>
@@ -24,7 +24,7 @@ const MadLib1 = () => (
    </p>
 
     <p>
-      When this girl was (verb) by her (Person), The internet came together and {MadLibAPI.getAdj()} told her to (verb).
+      When this girl was (verb) by her (Person), The internet came together and "{MadLibAPI.getAdj()}" told her to (verb).
    </p>
 
 

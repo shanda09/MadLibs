@@ -11,11 +11,11 @@ const MadLib2 = () => (
     </h1>
     
     <p>
-      Annual {MadLibAPI.getAdj()} parade passed through (place) unnoticed while everyone was (verb) in {MadLibAPI.getAdj()}.
+      Annual "{MadLibAPI.getAdj()}" parade passed through (place) unnoticed while everyone was (verb) in "{MadLibAPI.getAdj()}".
     </p>
 
     <p>
-      He just wanted to (verb) while watching television, but his {MadLibAPI.getAdj()} (noun) kept (verb).
+      He just wanted to (verb) while watching television, but his "{MadLibAPI.getAdj()}" (noun) kept (verb).
     </p>
     
     <p>

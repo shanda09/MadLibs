@@ -1,0 +1,93 @@
+
+body {
+background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+overflow: hidden;
+
+}
+
+body {
+font-family: 'Josefin Slab', serif; color: white;
+text-align: center;
+}
+
+
+h1 {
+  font-family: 'Fredericka the Great', cursive; color: white; font-size: 60px; text-shadow: 2px 2px black;
+
+}
+
+h2 {
+font-family: 'Fredericka the Great', cursive; color: white; font-size: 40px; text-shadow: 2px 2px black;
+
+}
+
+
+#header {
+  height: 7em;
+  width: 40em;
+  margin-bottom: 5em;
+  padding-bottom: 5em;
+
+}
+
+#b1 {
+  float: left;
+  margin-left: 3em;
+  width: 90px;
+  height: 50px;
+	background-color:#344050 ; border-radius: 30px;border: none;
+font-family: 'Josefin Slab', serif;
+	font-size: 20px; 
+}
+
+#b1:hover {
+          box-shadow: inset 0 0 0 25px #EF716D;
+
+}
+
+#b2:hover {
+          box-shadow: inset 0 0 0 25px #344050;
+
+}
+
+#b2 {
+  float: right;
+  margin-right: 3em;
+  width: 90px;
+  height: 50px;
+	background-color:#EF716D; border-radius: 30px; border: none;
+font-family: 'Josefin Slab', serif;
+	font-size: 18px; 
+  
+}
+
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#header {
+  width: 600px;
+  height: 400px;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+
+ul {
+  list-style-type: none;
+  font-size: 30px;
+}
+
+#libDiv {
+  font-family: 'Josefin Slab', serif;
+	font-size: 18px; 
+}

@@ -3,17 +3,18 @@ import React from "react";
 const MadLib4 = () => (
   <div>
     <h1>
-
-      MadLib4
+      Rick & Morty MadLib
     </h1>
 
-    <p>
-    After Trump tweeted, he (adverb) (verb) on (noun) and (verb). 
-    </p>
-
-    <p>
-    After watching that black mirror episode, I (adverb) buried my face in (noun) and thought about (adjective) (noun).
-    </p>
+    <div id="libDiv">
+      <p>
+        Rick (adverb)(verb) to his spaceship where Morty was (verb) with his (noun).
+<br />
+        “Where are we going Rick?”, Morty (adverb) asked.
+<br />
+        Rick took out his (noun) and told Morty to eat a (noun).
+ </p>
+    </div>
 
   </div>
 );

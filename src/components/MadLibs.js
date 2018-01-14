@@ -9,46 +9,46 @@ import MadLib4 from './MadLib4';
 
 
 const Nav = props => (
-    <div>
-      <h3 className="header">
-        Select Your Mad Lib:
-    </h3>
-      <div className="listOfLibs">
-        <ul className="daList">
-          <li>
-            <Link to="/MadLibs/madLib1">MAd lib #1</Link>
-          </li>
-          <li>
-          <Link to="/MadLibs/MadLib2">MAd lib #2</Link>
-          </li>
-          <li>
-          <Link to="/MadLibs/MadLib3">MAd lib #3</Link>
-          </li>
-          <li>
-          <Link to="/MadLibs/MadLib4">MAd lib #4</Link>
-          </li>
-        </ul>
-      </div>
-      </div>
-  )
+  <div>
+    <h1 >
+      Select A Mad Lib:
+    </h1>
+    <div className="listOfLibs">
+      <ul className="daList">
+        <li>
+          <Link to="/MadLibs/madLib1">Walmart MadLib</Link>
+        </li>
+        <li>
+          <Link to="/MadLibs/MadLib2">3 Little MadLibs</Link>
+        </li>
+        <li>
+          <Link to="/MadLibs/MadLib3">Presidential MadLib</Link>
+        </li>
+        <li>
+          <Link to="/MadLibs/MadLib4">Rick & Morty MadLib</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+)
 
 class MadLibs extends React.Component {
-        render(){
-      return (
+  render() {
+    return (
 
 
       <Switch>
-          <Route exact path="/MadLibs" component={Nav} />
+        <Route exact path="/MadLibs" component={Nav} />
         <Route path="/MadLibs/madLib1" component={MadLib1} />
         <Route path="/MadLibs/madLib2" component={MadLib2} />
         <Route path="/MadLibs/madLib3" component={MadLib3} />
         <Route path="/MadLibs/madLib4" component={MadLib4} />
 
       </Switch>
-      )
+    )
   }
 
-  
+
 }
 
 

@@ -19,7 +19,7 @@ const MadLib2 = () => (
     </p>
     
     <p>
-    Sony released a new game about (noun) who (adverb) while (verb).
+    Sony released a new game about (noun) who  while (verb).
     </p>
 
     <br />

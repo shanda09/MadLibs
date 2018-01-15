@@ -15,9 +15,10 @@ const MadLib4 = () => (
     </p>
 
     <p>
-      After watching that black mirror episode, I (adverb) buried my face in "{MadLibAPI.getNouns()}" and thought about "{MadLibAPI.getAdj()}" "{MadLibAPI.getNouns()}".
+      After watching that black mirror episode, I "{MadLibAPI.getAdv()}" buried my face in "{MadLibAPI.getNouns()}" and thought about "{MadLibAPI.getAdj()}" "{MadLibAPI.getNouns()}".
     </p>
-
+    <br />
+    <button><Link to="/MadLibs">Back</Link></button>
   </div>
 );
 

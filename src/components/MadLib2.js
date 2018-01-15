@@ -19,7 +19,7 @@ const MadLib2 = () => (
     </p>
     
     <p>
-      Sony released a new game about "{MadLibAPI.getNouns()}" who (adverb) while "{MadLibAPI.getVerbs()}".
+      Sony released a new game about "{MadLibAPI.getNouns()}" who "{MadLibAPI.getAdj()}" while "{MadLibAPI.getVerbs()}".
     </p>
 
     <br />

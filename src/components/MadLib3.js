@@ -12,11 +12,13 @@ const MadLib3 = () => (
 
 
     <p>
-      There was a (noun) for sale at Walmart. I (verb) a few while I "{MadLibAPI.getAdv()}" (verb) over to the checkout. The cashier (verb) at me while I dug into my (noun) and pulled out my (noun). 
+
+      There was a "{MadLibAPI.getNouns()}" for sale at Walmart. I "{MadLibAPI.getVerbs()}" a few while I "{MadLibAPI.getAdv()}" "{MadLibAPI.getVerbs()}" over to the checkout. The cashier "{MadLibAPI.getVerbs()}" at me while I dug into my "{MadLibAPI.getNouns()}" and pulled out my "{MadLibAPI.getNouns()}". 
     </p>
 
     <p>
-      Melania (verb) at her husband and "{MadLibAPI.getAdj()}" (verb) his "{MadLibAPI.getAdj()}" hair. He (verb) at her and told her to (noun).
+      Melania "{MadLibAPI.getVerbs()}" at her husband and "{MadLibAPI.getAdj()}" "{MadLibAPI.getVerbs()}" his "{MadLibAPI.getAdj()}" hair. He "{MadLibAPI.getVerbs()}" at her and told her to "{MadLibAPI.getNouns()}".
+
     </p>
     <br />
     <button><Link to="/MadLibs">Back</Link></button>

@@ -64,6 +64,111 @@ const adverbs = [
   }
 ];
 
+const nouns = [
+  {
+    id: 0,
+    word: "racism"
+  },
+  {
+    id: 1,
+    word: "catapult"
+  },
+  {
+    id: 2,
+    word: "silence"
+  },
+  {
+    id: 3,
+    word: "The Holy Bible"
+  },
+  {
+    id: 4,
+    word: "chips"
+  },
+  {
+    id: 5,
+    word: "dog poop"
+  },
+  {
+    id: 6,
+    word: "anti-depressants"
+  },
+  {
+    id: 7,
+    word: "Bill Cosby"
+  },
+  {
+    id: 8,
+    word: "Beyonce"
+  },
+  {
+    id: 9,
+    word: "The White House"
+  }
+];
+
+
+const verbs = [
+  {
+    id: 0,
+    word: "attack"
+  },
+  {
+    id: 1,
+    word: "bulldoze"
+  },
+  {
+    id: 2,
+    word: "humiliate"
+  },
+  {
+    id: 3,
+    word: "harass"
+  },
+  {
+    id: 4,
+    word: "empty"
+  },
+  {
+    id: 5,
+    word: "bushwhack"
+  },
+  {
+    id: 6,
+    word: "tyrannize"
+  },
+  {
+    id: 7,
+    word: "medicate"
+  },
+  {
+    id: 8,
+    word: "bury"
+  },
+  {
+    id: 9,
+    word: "trap"
+  }
+];
+
+
+
+
+const getAllNoun = () => nouns;
+const getOneNoun = id => nouns.find(noun => noun.id === id);
+
+const mapNoun = () => {
+  return nouns.map(noun => noun.word)
+}
+
+const getVerbs = () => {
+  let x = Math.random() * (verbs.length)
+  return verbs[Math.floor(x)].word;
+}
+const getNouns = () => {
+  let x = Math.random() * (nouns.length)
+  return nouns[Math.floor(x)].word;
+}
 const getAdj = () => {
   let x = Math.random() * (adjectives.length)
   return adjectives[Math.floor(x)].word;
@@ -76,5 +181,8 @@ const getAdv = () => {
 
 export default {
   getAdj,
-  getAdv
+  getAdv,
+  getAllNoun,
+  getNouns,
+  getVerbs,
 };

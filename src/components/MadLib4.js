@@ -12,11 +12,11 @@ const MadLib4 = () => (
 
            <div id="libDiv">
     <p>
-    After Trump tweeted, he (adverb) (verb) on (noun) and (verb). 
+      After Trump tweeted, he (adverb) "{MadLibAPI.getVerbs()}" on "{MadLibAPI.getNouns()}" and "{MadLibAPI.getVerbs()}". 
     </p>
 
     <p>
-      After watching that black mirror episode, I "{MadLibAPI.getAdv()}" buried my face in (noun) and thought about "{MadLibAPI.getAdj()}" (noun).
+      After watching that black mirror episode, I "{MadLibAPI.getAdv()}" buried my face in "{MadLibAPI.getNouns()}" and thought about "{MadLibAPI.getAdj()}" "{MadLibAPI.getNouns()}".
     </p>
        </div>
     <br />

@@ -66,12 +66,12 @@ const adverbs = [
 
 const getAdj = () => {
   let x = Math.random() * (adjectives.length)
-  return adjectives[Math.floor(x)].id;
+  return adjectives[Math.floor(x)].word;
 }
 
 const getAdv = () => {
   let x = Math.random() * (adverbs.length)
-  return adverbs[Math.floor(x)].id;
+  return adverbs[Math.floor(x)].word;
 }
 
 export default {

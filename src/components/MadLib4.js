@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import MadLibAPI from "../api/MadLibAPI";
+
 
 const MadLib4 = () => (
   <div>
@@ -6,15 +9,18 @@ const MadLib4 = () => (
       Rick & Morty MadLib
     </h1>
 
-    <div id="libDiv">
-      <p>
-        Rick (adverb)(verb) to his spaceship where Morty was (verb) with his (noun).
-<br />
-        “Where are we going Rick?”, Morty (adverb) asked.
-<br />
-        Rick took out his (noun) and told Morty to eat a (noun).
- </p>
-    </div>
+
+           <div id="libDiv">
+    <p>
+    After Trump tweeted, he (adverb) (verb) on (noun) and (verb). 
+    </p>
+
+    <p>
+      After watching that black mirror episode, I "{MadLibAPI.getAdv()}" buried my face in (noun) and thought about "{MadLibAPI.getAdj()}" (noun).
+    </p>
+       </div>
+    <br />
+    <button><Link to="/MadLibs">Back</Link></button>
 
   </div>
 );

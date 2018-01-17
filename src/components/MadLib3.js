@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import MadLibAPI from "../api/MadLibAPI";
+
 
 const MadLib3 = () => (
   <div>
@@ -7,19 +10,17 @@ const MadLib3 = () => (
         Our President get/'s his own Mad Lib!'
     </h1>
 
-      <p>
-        After he sent out yet another controversial tweet,
-    <br />
-        Donald Trump (verb) on his (adjective)(noun) and (adverb)(verb).
-    <br />
-        His phone started (verbing) and he picked it up to see 1000 retweets.
-    <br />
-        He looked at his hands and wished they were (Noun).
-    <br />
-        “These tiny hands can’t tweet fast enough”, he thought to himself as he (verb).
 
+    <p>
+      There was a (noun) for sale at Walmart. I (verb) a few while I "{MadLibAPI.getAdv()}" (verb) over to the checkout. The cashier (verb) at me while I dug into my (noun) and pulled out my (noun). 
     </p>
-    </div>
+
+    <p>
+      Melania (verb) at her husband and "{MadLibAPI.getAdj()}" (verb) his "{MadLibAPI.getAdj()}" hair. He (verb) at her and told her to (noun).
+    </p>
+    <br />
+    <button><Link to="/MadLibs">Back</Link></button>
+
   </div>
 );
 

@@ -5,10 +5,11 @@ import MadLibAPI from "../api/MadLibAPI";
 
 const MadLib3 = () => (
   <div>
-    <h1>
-
-      MadLib3
+    <div id="libDiv">
+      <h1>
+        Our President get/'s his own Mad Lib!'
     </h1>
+
 
     <p>
 
@@ -21,6 +22,7 @@ const MadLib3 = () => (
     </p>
     <br />
     <button><Link to="/MadLibs">Back</Link></button>
+
   </div>
 );
 

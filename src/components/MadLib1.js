@@ -8,9 +8,11 @@ import MadLibAPI from "../api/MadLibAPI";
 const MadLib1 = () => (
   <div>
     <h1>
-      MadLib1
-   </h1>
 
+
+      Walmart MadLib
+   </h1>
+<div id="libDiv">
     <p>
       I saw a (noun) with big (noun) on the train ride to (Place). To stop myself from staring, I (verb) my (noun).
    </p>
@@ -26,10 +28,11 @@ const MadLib1 = () => (
     <p>
       When this girl was (verb) by her (Person), The internet came together and {MadLibAPI.getAdj()} told her to (verb).
    </p>
-
+</div>
 
     <br />
     <button><Link to="/MadLibs">Back</Link></button>
+
 
   </div>
 );
